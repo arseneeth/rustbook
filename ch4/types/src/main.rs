@@ -65,4 +65,11 @@ fn main() {
 
 	println!("x is {}", x);
 
+	// Functions
+
+	fn foo(x: i32) -> i32 { x }
+
+	let x: fn(i32) -> i32 = foo; // fn(i32) -> i32 is a type of a function pointer x
+
+
 }
